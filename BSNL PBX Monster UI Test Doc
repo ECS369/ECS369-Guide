@@ -1,0 +1,59 @@
+BSNL PBX Monster UI Testing Document
+
+1) Login Page 
+
+a) Logo can be small and tag line can go down
+ 
+
+b)reduce Contact us and Sign in fonts
+
+
+
+
+2) SmartpBX home page
+This is working fine in a few systems and it's clumsy in a few systems.
+
+
+
+3) Users
+Adding device window
+Field names are in white so its not visible 
+This is the same for all the devices.
+
+b) adding codecs 
+
+
+4) Add from spare numbers the number is in white font on white background . 
+
+5) IVR change the font color here
+
+
+
+6) Change the font color in creating group (check user list its not visible) 
+
+b) group features icon not visible
+
+
+7) Incoming call handling: change the virtual receptionist font color
+
+
+8) Accounts App
+Check the general settings its in white color ( i have highlighted ) 
+
+
+9) App exchange: change the font color ( compare with previous page) 
+
+
+10) app exchange permission window
+
+
+11) customer office hours window
+Blue color are visible only when we highlight them 
+
+
+12)settings page
+Highlighted one are not visible normally
+
+
+13) add from spare devices window
+
