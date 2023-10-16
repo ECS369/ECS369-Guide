@@ -1,0 +1,86 @@
+
+HR Data aggregation Web App
+
+1. Initial Contact with Candidates:
+
+Admin Web Portal:
+
+Implement a secure login system for web portal administrators.
+Develop an intuitive dashboard to display information about all candidates.
+Provide options to add, edit, and manage candidate profiles efficiently.
+
+          Candidate Document Storage:
+
+Design a centralized storage system on the server for candidate documents.
+Enable administrators to link documents with individual candidate profiles.
+Ensure secure and organized storage of documents, adhering to data privacy regulations.
+
+          Candidate Assignment Dashboard:
+Design a dedicated dashboard exclusively for Superadmins' use.
+Develop a feature enabling Superadmins to assign selected candidates to chosen interviewers.
+Ensure synchronization between assignments and database records.
+
+
+Chatbot Integration:
+
+Integrate the chatbot seamlessly into the platform's messaging infrastructure.
+Ensure smooth communication between candidates, clients, and administrators.
+Utilize APIs or compatible systems for efficient chatbot integration.
+      4. Initial Candidate Questions (Filters):
+
+Hiring
+
+2. First Filter:Automated Questioning:
+Create a standardized set of initial questions to filter candidates effectively.
+Design the questions to gather essential information about the candidates.
+Program the system to use candidate responses for initial screening.
+Configure the chatbot to ask initial questions to candidates based on the job requirements.
+Utilize the chatbot to gather basic information and filter out candidates who don't meet the criteria.
+
+3. Second Filter - Role Play Simulation:
+
+Video Simulation Integration:
+Will try to integrate google calendars and meet invites will go from there
+Person should be able to record the meeting
+We should be able to get his/her google recording link ,if possible.
+Provide guidelines for candidates to follow during the simulation.
+
+
+
+
+5. Automated Notifications:
+
+Stakeholder Notifications:
+
+Set up automated notifications to alert recruitment officials about candidates who pass the initial filters and simulations.
+Integrate notifications through email or within the platform itself.
+
+
+
+
+Candidate Notifications:
+
+Send automated confirmation emails to candidates upon successful submission of documents.
+Provide a clear explanation of the next steps in the process.
+
+6. Integration with Company Clients:
+
+Company Account Creation:
+
+Develop a client portal where companies can create accounts and log in to access the platform.
+
+Job Posting:
+
+Enable clients to post job vacancies on the platform.
+Ensure that job descriptions are clear and aligned with the criteria used in the candidate filtering process.
+
+Candidate Review:
+
+Allow clients to review and shortlist candidates who have passed the initial filters and simulations.
+Implement a communication channel for clients to interact with candidates.
+
+Platform Management and Monitoring:
+Once the platform is fully developed it will go in maintenance mode
+
+Please Note:This is a comprehensive overview, and each step might involve multiple sub-steps and considerations. The success of the platform depends on its usability, efficiency, and the seamless integration of automation technologies to enhance the recruitment process.
+
