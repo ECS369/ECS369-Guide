@@ -1,0 +1,72 @@
+Email-to-Ticket Integration System
+ 
+Objective: The objective of this system is to automate the process of generating tickets from client emails regarding issue/bug reports. The system will generate a unique ticket ID for each ticket and send an email notification to the client, informing them about the generated ticket and its ID. The system will also allow agents to open tickets, add comments, and update ticket information when interacting with clients via phone or email. 
+Requirements: 
+Email Integration:
+1.  	The system should receive incoming emails from clients.
+
+
+2.  	Incoming emails should be continuously monitored for new messages.
+(if it is with the same subject line then existing ticket should be updated - yuva)
+Ticket Generation:
+1.  	When an email is received regarding an issue/bug, the system should automatically generate a ticket in the backend ticketing system.
+(There will be particular email id- A new ticket will rise when everyone sends a mail to that particular mail id - yuva)
+2.  	A unique ticket ID should be generated for each ticket.
+(unique id can be in the format of date and number of tickets on that particular day or life time ticketing numbers - yuva)
+3.  	The system should store the ticket details (ticket ID, sender's email, subject, and body) in the backend database
+(system captures essential information such as the customer's contact details, issue description, priority level, and any relevant attachments - yuva)
+
+
+
+Email Notification:
+1.  	After generating a ticket, the system should send an automatic email response to the client.
+2.  	The email response should inform the client that their ticket has been generated and provide them with the ticket ID. 
+Agent Interaction:
+1.  	Agents should have access to the ticketing system.
+2.  	Agents should be able to open tickets and view ticket details, including the client's email, subject, and body.
+( attachments also-yuva)
+3.  	Agents should have the ability to add comments or updates to a ticket, documenting their interactions with the client or the progress made on the issue/bug.
+Email Updates:
+1.  	The system should monitor the email account for replies or additional comments from the client.
+2.  	Incoming emails from the same client should be associated with the corresponding ticket based on the ticket ID.
+( and subject of the mail -yuva)
+The system should update the ticket record in the database with any new information or comments provided in the email. 
+( like in the below screenshot - yuva) 
+
+
+
+
+
+ADD/EDIT TICKET SCREEN SHOULD BE LIKE THIS
+
+ 
+If we directly edit it from the ticketing system then mail should go to the client and if the client replies in mail, that comment should be displayed here.
+( the option can be edit or open the ticket, whoever opens the tickets then GUI color will change - yuva ) 
+1) It should contain all the Ticket details like, name, contact, email, company name , ticket created date, assigned , priority, history( with date stamp and person details)  and text box to update the ticket 
+2) Reopen ticket option if at all we want to reopen the same ticket or we will not keep this option so that customers can raise a new ticket.   
+3) Ticket Status and Progress: The current status of the ticket is usually visible, indicating whether it is open, in progress, on hold, or awaiting customer response. Agents can update and change the status as they work on the ticket, reflecting its progress.
+4) Internal Collaboration: Agents may have the option to collaborate with other team members or escalate the ticket to a higher-level support group if needed. The Open Ticket window may provide features for internal messaging, tagging or assigning tickets to specific agents or teams, and facilitating collaboration on ticket resolution.
+5) Attachments and File Management: The Open Ticket window allows agents to view, add, or remove attachments associated with the ticket. This feature enables the exchange of relevant files, such as screenshots, logs, or documents, to assist in ticket resolution.
+6)Ticket Actions: The Open Ticket window often offers a set of actions that agents can perform on the ticket, such as reassigning, merging, closing, or reopening the ticket. 
+
+
+
+Assumptions and Constraints:
+ 
+The system will be developed using appropriate programming languages and frameworks.
+The backend ticketing system will use a MySQL database for storing ticket information.
+The email account for receiving client emails will be properly configured and accessible.
+The system should be capable of handling a high volume of incoming emails.
+ Security measures, such as authentication and authorization, should be implemented to protect the system and data.
+
+This document outlines the main functionalities and features of the email-to-ticket integration system. It provides a concise overview of the system's purpose and the requirements to be fulfilled. Further discussions and planning can be based on this document, considering additional details such as technical specifications, user interface design, and project timelines.
+
+
+
+
+Extras
+1) A knowledge base can be integrated into the ticketing system, providing agents with a repository of articles, FAQs, and troubleshooting guides. Agents can refer to this information to resolve issues efficiently and provide accurate responses.
+This we can take up in future
+
+
+
