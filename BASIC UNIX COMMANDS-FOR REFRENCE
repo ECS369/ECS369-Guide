@@ -1,0 +1,86 @@
+ls: List files and directories in the current directory.
+Example: ls
+2. cd: Change the current directory.
+Example: cd /home/user/Documents
+3. pwd: Print the working directory (current directory).
+Example: pwd
+4. mkdir: Create a new directory.
+Example: mkdir new_folder
+5. rm: Remove files or directories.
+Example: rm file.txt (removes the file &quot;file.txt&quot;)
+Example: rm -r folder (removes the directory &quot;folder&quot; and its contents)
+6. cp: Copy files or directories.
+Example: cp file.txt /path/to/destination/ (copies &quot;file.txt&quot; to the specified
+destination)
+7. mv: Move or rename files or directories.
+Example: mv file.txt new_name.txt (renames &quot;file.txt&quot; to &quot;new_name.txt&quot;)
+Example: mv file.txt /path/to/destination/ (moves &quot;file.txt&quot; to the specified
+destination)
+8. cat: Concatenate and display file content.
+Example: cat file.txt
+9. grep: Search for a pattern in a file or output.
+Example: grep &quot;keyword&quot; file.txt
+10. chmod: Change file permissions.
+Example: chmod +x script.sh (gives execute permission to &quot;script.sh&quot;)
+11. chown: Change file ownership.
+Example: chown user:group file.txt (changes the owner and group of
+&quot;file.txt&quot; to specified user and group)
+
+12. ps: Show the current processes.
+Example: ps
+13. kill: Terminate a process.
+Example: kill PID (where PID is the process ID)
+14. top: Display real-time system resource usage and running processes.
+Example: top
+15. tar: Archive files into a tarball.
+Example: tar -cvf archive.tar file1 file2 (creates an archive &quot;archive.tar&quot;
+with &quot;file1&quot; and &quot;file2&quot;)
+
+16. gzip/gunzip: Compress or decompress files.
+Example: gzip file.txt (compresses &quot;file.txt&quot; into &quot;file.txt.gz&quot;) Example: gunzip
+file.txt.gz (decompresses &quot;file.txt.gz&quot; back to &quot;file.txt&quot;)
+17. ssh: Securely connect to a remote server.
+Example: ssh user@hostname (connects to &quot;hostname&quot; as &quot;user&quot;)
+18. wget: Download files from the web.
+Example: wget https://example.com/file.txt
+19. df: Display disk space usage.
+Example: df -h (displays disk space usage in a human-readable format)
+20. man: Display the manual for a command.
+Example: man ls (displays the manual page for the &quot;ls&quot; command)
+21. Start a service:
+Example: sudo systemctl start service_name For instance, to start the Apache
+web server, you&#39;d use sudo systemctl start apache2.
+22. Stop a service:
+Example: sudo systemctl stop service_name For instance, to stop the Apache web
+server, you&#39;d use sudo systemctl stop apache2.
+23. Restart a service:
+Example: sudo systemctl restart service_name For instance, to restart the
+Apache web server, you&#39;d use sudo systemctl restart apache2.
+
+24. Enable a service to start on boot:
+Example: sudo systemctl enable service_name For instance, to enable the
+Apache web server to start automatically on boot, you&#39;d use sudo systemctl
+enable apache2.
+25. Disable a service from starting on boot:
+Example: sudo systemctl disable service_name For instance, to disable the
+Apache web server from starting automatically on boot, you&#39;d use sudo systemctl
+disable apache2.
+26. Check the status of a service:
+Example: sudo systemctl status service_name
+For instance, to check the status of the Apache web server, you&#39;d use sudo systemctl
+status apache2.
+27. View the log of a service:
+Example: sudo journalctl -u service_name
+For instance, to view the log of the Apache web server, you&#39;d use sudo journalctl -u
+apache2.
+28. List all available units (services, sockets, timers, etc.):
+Example: systemctl list-units
+29. List all running units:
+Example: systemctl list-units --type=service --state=running
+30. Reload the configuration of a service without stopping it:
+Example: sudo systemctl reload service_name
+31. Show failed units:
+Example: systemctl --failed
+32. Find selected text
+grep &quot;grep&quot; example.txt
+if case sensitive grep -i &quot;grep&quot; example.txt
