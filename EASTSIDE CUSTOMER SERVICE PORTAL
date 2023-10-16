@@ -1,0 +1,25 @@
+ EASTSIDE CUSTOMER SERVICE PORTAL
+ Main Portal
+The Main Portal serves as the central hub for accessing different functionalities within the system. It provides a secure login using an authentication token from the Monster UI portal. Once logged in, users will have access to the following menus: 
+1.   	Ticketing System
+The Ticketing System menu allows users to manage and track customer tickets.
+ Users are automatically logged in using the same authentication token as the Main Portal, ensuring a seamless experience.
+ If a ticket needs to be raised during a call, the user can switch to the Ticketing System menu while the call is still ongoing and create a ticket for further resolution.
+ Each ticket created will be associated with the customer and their specific concern, facilitating efficient ticket management and resolution.
+2.   	DT App Call Center
+ The DT App Call Center menu provides functionality for making and receiving calls.
+ Agents can handle customer inquiries and complaints during calls, ensuring effective communication and issue resolution.
+ If a call requires the agent to raise a ticket, they can navigate to the Ticketing System menu while the call is in progress and create a ticket without interrupting the call.
+ This seamless integration between the DT App Call Center and the Ticketing System enhances productivity and customer support.
+3.   	Contact List
+ The Contact List feature retrieves external contacts from the address book of the DT App.
+ Users can access and search for customer contacts within the Main Portal.
+ If an agent receives a call and the customer raises a complaint during the call, the agent can navigate to the Ticketing System menu and create a ticket specific to that customer's name in the contact list.
+In case the customer does not exist in the contact list, the Main Portal provides an alternative approach.
+The DT App's Recent menu will include an icon next to the customer's number. Clicking on this icon will open a form where the agent can add the customer's name and other relevant details to create a new contact.
+This ensures that all customer interactions are properly recorded and ticket creation is streamlined, even for new contacts.
+Please refer to the attached flow chart for a visual representation of the Main Portal's functionalities and interactions.
+
+Main Portal Flow Chart:
+ 
+
