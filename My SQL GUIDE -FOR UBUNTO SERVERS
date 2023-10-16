@@ -1,0 +1,14 @@
+How to install MySQL on server:
+
+sudo apt update
+sudo apt install mysql-server
+sudo systemctl start mysql.service
+sudo mysql
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password'; (‘password’ should be replaced with the desired password)
+
+Using MySql
+
+mysql -u root -p 
+It will ask for your password that you set (point 5)
+Once in, you can run all the MySQL commands.
+Show tables;
